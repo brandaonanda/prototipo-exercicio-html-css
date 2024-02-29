@@ -1,0 +1,166 @@
+			*{
+				margin: 0px;
+				border: 0px;
+				padding: 0px;
+			}
+
+			html{
+				font-family: arial;
+				font-size: 62.5%;
+			}
+
+			header{
+				background-color: #556B2F;
+				color: #fff;
+				font-size: 1.8rem;
+				padding: 1rem;
+				position: fixed;
+				width: 100%;
+
+			}
+
+			footer{
+				background-color: #556B2F;
+				color: #fff;
+				font-size: 1.8rem;
+				padding: 1rem;
+
+			}
+
+			.conteudo{
+				font-size: 1.6rem;
+				background-color: #fff;
+				padding: 1.5rem;
+				margin: 0 auto;
+				text-align: justify;
+				max-width: 1024px;
+			}
+
+			.conteudo-topo{
+				font-size: 1.6rem;
+				background-color: #fff;
+				padding: 1.5rem;
+				margin: 0 auto;
+				text-align: justify;
+				max-width: 1024px;
+				padding-top: 10rem;
+			}
+			h1{
+				font-size: 2.5rem;
+			}
+			h2{
+				font-size: 1.9rem;
+			}
+
+			h3{
+				font-size: 1.7rem;
+			}
+
+			h4{
+				font-size: 1.6rem;
+			}
+
+			h5{
+				font-size: 1.5;
+			}
+
+
+			figure{
+				text-align: center;
+			}
+
+			.imagens-site{
+				border-radius: 20px 50px;
+				width: 50%;
+				height: 30%;
+			}
+			@media(min-width: 280px) and (max-width:800px){
+			.imagens-site{
+				border-radius: 20px 50px;
+				width: 90%;
+				height: 70%;
+			}
+			}
+
+			#compras{
+			background-color: #32CD32;
+			width: 150px;
+			height: 50px;
+			right: 0px;
+			position: fixed;
+			text-align: center;
+			margin-top: 5rem;
+			z-index: 1;
+			}
+
+			#grid-conteudo{
+				background-color: #dcdcdc;
+			}
+
+			.grid{
+				display: grid;
+				grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+				grid-gap: 1px;
+			}
+
+			.grid div{
+				background-color: #fff;
+				text-align: center;
+				padding: 2px;
+			}
+
+			#formulario{
+				background-color: #dcdcdc;
+			}
+			input{
+				border: solid;
+				padding: 5px;
+				border-radius: 10px;
+				font-size: 1.8rem;
+			}
+
+			#mensagem{
+				border: solid;
+				padding: 5px;
+				border-radius: 10px;
+				font-size: 1.8rem;
+			}
+
+			#btn-limpar{
+				background-color: #FF6347;
+				color: #fff;
+				text-align: center;
+				padding: 5px;
+				font-weight: bold;
+			}
+			#btn-enviar{
+				background-color: #9ACD32;
+				color: #fff;
+				text-align: center;
+				padding: 5px;
+				font-weight: bold;
+			}
+
+			nav{
+				text-align: right;
+				font-size: 1.6rem;
+				word-spacing: 10px;
+				margin-right: 5%;
+				padding-bottom: 5px;
+			}
+
+			a{
+				text-decoration: none;
+				color: #fff;
+				font-weight: bold;
+			}
+
+			a:hover{
+				color: #ffff00;
+			}
+
+			#btn-comprar{
+				background-color: #fff;
+				text-align: center;
+				padding: 5px;
+				font-weight: bold;
